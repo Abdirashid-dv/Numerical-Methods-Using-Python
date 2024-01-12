@@ -16,11 +16,11 @@
 
 ### Formüller
 
--   **Orta Nokta**: \( m = \frac{a + b}{2} \)
--   **Fonksiyon Değerlendirmesi**: \( f(m) \)
+-   **Orta Nokta**: $\( m = \frac{a + b}{2} \)$
+-   **Fonksiyon Değerlendirmesi**: $\( f(m) \)$
 -   **Aralık Güncellemesi**:
-    -   Eğer f(a) . f(m) < 0 ise, yeni aralık `[a, m]` olur.
-    -   Eğer f(b) . f(m) < 0 ise, yeni aralık `[m, b]` olur.
+    -   Eğer $\(f(a) \cdot f(m)\)$ < 0 ise, yeni aralık `[a, m]` olur.
+    -   Eğer $\(f(b) \cdot f(m)\)$ < 0 ise, yeni aralık `[m, b]` olur.
 
 ## Python Kodu Açıklaması
 
