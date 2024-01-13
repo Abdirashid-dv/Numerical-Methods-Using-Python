@@ -24,10 +24,10 @@ $$
 
 Burada:
 
--   \( x_n \) mevcut yaklaşım,
--   \( x\_{n+1} \) bir sonraki yaklaşım,
--   \( f(x) \) kökünü bulmaya çalıştığımız fonksiyon,
--   \( f'(x) \) \( f(x) \) fonksiyonunun türevidir.
+- $\( x_n \)$ mevcut yaklaşım,
+-   $\( x\_{n+1} \)$ bir sonraki yaklaşım,
+-   $\( f(x) \)$ kökünü bulmaya çalıştığımız fonksiyon,
+-   $\( f'(x) \) \( f(x) \)$ fonksiyonunun türevidir.
 
 ## Fonksiyon Kullanımı
 
