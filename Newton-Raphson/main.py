@@ -28,13 +28,14 @@ def newton_raphson_method(f, df, x0, tol=1e-6, max_iter=1000):
 
 
 # Örnek kullanım:
-# Fonksiyonu ve türevini tanımlayın
-f = lambda x: 5 / x - 2
-df = lambda x: -5 / x**2
+if __name__ == "__main__":
+    # Fonksiyonu ve türevini tanımlayın
+    f = lambda x: 5 / x - 2
+    df = lambda x: -5 / x**2
 
-# Başlangıç tahmini
-x0 = 3
+    # Başlangıç tahmini
+    x0 = 3
 
-# Kökü bul
-root = newton_raphson_method(f, df, x0)
-print("Fonksiyonun kökü:", root)
+    # Kökü bul
+    root = newton_raphson_method(f, df, x0)
+    print("Fonksiyonun kökü:", root)
